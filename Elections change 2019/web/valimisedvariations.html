@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>valimisedvariations</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#FFF6F3;
+			margin:0;
+			height:100%;
+		}
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=720" />
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif&subset=latin' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="valimisedvariations.hyperesources/style.css" />
+	<script type="text/javascript" src="valimisedvariations.hyperesources/data.js"></script>
+
+<script>
+	var mouseX;
+	var mouseY;
+	var valladColor=document.getElementsByClassName('valimisringkond');
+	var resultAll = [];
+	var selectedErakond='Reformierakond';
+	
+	function coloringVallad(){	
+		var resultAll = [];
+		for(i=0; i<valladColor.length; i++){
+			var idColor = valladColor[i].id;
+			var result = valimis[idColor][selectedErakond];
+			resultAll.push(result);
+		};
+		for(i=0; i<valladColor.length; i++){
+			var idColor = valladColor[i].id;
+			var result = valimis[idColor][selectedErakond];
+			console.log(result);
+			var biggest = 0;
+			for (a=0; a<resultAll.length; a++){
+				if(resultAll[a]>biggest){
+				biggest = resultAll[a];
+				}
+			};
+			document.getElementById('maxLegend').innerHTML=biggest.toLocaleString("et-EE", { maximumFractionDigits: 0 })+'%';
+			var resultPercent = result*100/biggest;
+			if(result>=0){
+				document.getElementById(valladColor[i].id).style.fill = 'rgba(87, 137, 124,'+ resultPercent/120+')';
+				//document.getElementById('legendBg').style.backgroundColor = 'rgb(27,156,197)'
+			}else if(result<0){
+				var resutlAbs = Math.abs(result);
+				document.getElementById(valladColor[i].id).style.fill = 'rgba(172, 0, 30,'+ resutlAbs/12+')';
+				//document.getElementById('legendBg').style.backgroundColor = 'rgb(21,123,97)'
+			}
+		}
+		var activeErakond = document.getElementById(selectedErakond);
+		var unactiveErakond = document.getElementsByClassName('button');
+		for(i=0; i<unactiveErakond.length; i++){
+			unactiveErakond[i].style.border = "thick solid #fff6f3";
+			unactiveErakond[i].style.borderRadius = "50%";
+			unactiveErakond[i].style.opacity= "0.5";
+		}
+		activeErakond.style.border = "thick inset #9f9a95";
+		activeErakond.style.opacity= "1";
+	};
+	
+	function showResult(a){
+    	document.getElementById('tooltip').style.visibility = 'visible';
+		handleMouseMove(event);
+		var idColor = a.id;
+		document.getElementById('tooltip').innerHTML = '<div style="background-color: rgba(28,28,27,0.7);border-radius: 5px;color: white;padding:10px;"><b>'+ valimis[a.id]["Muutus"] +':</b><br><span style="">'+selectedErakond+' '+ valimis[idColor][selectedErakond].toLocaleString("et-EE")+'%</span></div>';
+		document.getElementById('tooltip').style.left= mouseX + 'px';
+		document.getElementById('tooltip').style.top= mouseY + 'px';
+		var mouseMovedX = mouseX - 198;
+		var mouseNormalX = mouseX + 1;
+		var windowHalfWidth= document.documentElement.clientWidth / 2;
+        if(mouseX>windowHalfWidth){
+        	document.getElementById('tooltip').style.left= mouseMovedX + 'px';
+        }else{	
+        	document.getElementById('tooltip').style.left= mouseNormalX + 'px';
+        }
+	};
+	
+	function handleMouseMove(event) {
+        var eventDoc, doc, body;
+
+        event = event || window.event; // IE-ism
+
+        // If pageX/Y aren't available and clientX/Y are,
+        // calculate pageX/Y - logic taken from jQuery.
+        // (This is to support old IE)
+        if (event.pageX == null && event.clientX != null) {
+            eventDoc = (event.target && event.target.ownerDocument) || document;
+            doc = eventDoc.documentElement;
+            body = eventDoc.body;
+
+            event.pageX = event.clientX +
+              (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+              (doc && doc.clientLeft || body && body.clientLeft || 0);
+            event.pageY = event.clientY +
+              (doc && doc.scrollTop  || body && body.scrollTop  || 0) -
+              (doc && doc.clientTop  || body && body.clientTop  || 0 );
+        }
+		mouseX = event.pageX;
+		mouseY = event.pageY;
+		// Use event.pageX / event.pageY here
+    }
+    
+    function clean(){
+    	document.getElementById('tooltip').style.visibility = 'hidden';
+    }
+	
+</script>			
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+	<div id="valimisedvariations_hype_container" style="margin:auto;position:relative;width:100%;height:800px;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="valimisedvariations.hyperesources/valimisedvariations_hype_generated_script.js?8167"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	<!-- text content for search engines: -->
+
+	<div style="display:none" aria-hidden=true>
+
+		<div></div>
+		<div>-12%</div>
+		<div></div>
+		<div>0%</div>
+		<div>Allikas: Vabariigi Valimiskomisjon  / Graafik: Miguel Álvarez /</div>
+		<div>Vaata, mis ringkondades erakonnad suurendasid või vähendasid oma toetuse osakaaluVajuta erakonna märgile ja liigu hiirega maakondade peale.</div>
+		<div>15%</div>
+
+	</div>
+
+	<!-- end text content: -->
+
+  </body>
+</html>

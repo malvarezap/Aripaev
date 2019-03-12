@@ -1,0 +1,36 @@
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="185.3px" height="187.5px" viewBox="0 0 185.3 187.5" style="enable-background:new 0 0 185.3 187.5;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B0C2BD;}
+	.st1{fill:#57897C;}
+	.st2{fill:#FFFFFF;}
+</style>
+<defs>
+</defs>
+<g>
+	<rect x="8.1" y="5.3" class="st0" width="158.2" height="106.5"/>
+	<rect x="154.4" y="35.8" class="st0" width="30.8" height="76"/>
+	<g>
+		<path class="st1" d="M78.2,108.6v-9.7H13V13h145.5v22.8h13.5V0H0v111.8h79.4C78.7,111,78.2,109.8,78.2,108.6z"/>
+		<rect x="19.4" y="19" style="fill:none;" width="152" height="168.5"/>
+		<text transform="matrix(1 0 0 1 19.4479 89.216)" class="st1" style="font-family:'Roboto-Bold'; font-size:93.5918px;">€</text>
+		<g>
+			<rect x="121.1" y="40.8" class="st1" width="61.6" height="13.2"/>
+			<rect x="83.2" y="58.9" class="st1" width="61.6" height="13.2"/>
+			<rect x="83.2" y="77" class="st1" width="61.6" height="13.2"/>
+			<rect x="83.2" y="95.2" class="st1" width="61.6" height="13.2"/>
+			<rect x="149.8" y="58.9" class="st1" width="32.8" height="13.2"/>
+			<rect x="149.8" y="77" class="st1" width="32.8" height="13.2"/>
+			<rect x="149.8" y="95.2" class="st1" width="32.8" height="13.2"/>
+		</g>
+	</g>
+</g>
+<g>
+	<polygon class="st2" points="140.6,74.8 153.1,62.1 158.8,67.6 158.8,67.6 171.6,80.4 177.6,74.4 177.6,91.7 160.3,91.7 
+		166.3,85.7 153.7,73.1 143.7,83.3 143.6,83.2 140.6,86.3 116.7,62.9 122.4,57 	"/>
+	<polygon class="st2" points="111.8,99.9 111.8,40.5 102.2,40.5 102.2,108.3 179.1,108.3 179.1,99.9 	"/>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="42.2px" height="42.2px" viewBox="0 0 42.2 42.2" style="enable-background:new 0 0 42.2 42.2;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0D96F;}
+	.st1{fill:#FFFFFF;}
+</style>
+<defs>
+</defs>
+<circle class="st0" cx="21.1" cy="21.1" r="21.1"/>
+<g>
+	<path class="st1" d="M18.2,30v-1.6H7.6v-14h23.6v3.7h2.2v-5.8H5.5v18.2h12.9C18.2,30.4,18.2,30.2,18.2,30z"/>
+	<rect x="8.6" y="15.4" style="fill:none;" width="10.4" height="12.8"/>
+	<text transform="matrix(1 0 0 1 8.6117 26.8397)" class="st1" style="font-family:'Roboto-Bold'; font-size:15.211px;">€</text>
+	<g>
+		<rect x="25.1" y="19" class="st1" width="10" height="2.1"/>
+		<rect x="19" y="21.9" class="st1" width="10" height="2.1"/>
+		<rect x="19" y="24.9" class="st1" width="10" height="2.1"/>
+		<rect x="19" y="27.8" class="st1" width="10" height="2.1"/>
+		<rect x="29.8" y="21.9" class="st1" width="5.3" height="2.1"/>
+		<rect x="29.8" y="24.9" class="st1" width="5.3" height="2.1"/>
+		<rect x="29.8" y="27.8" class="st1" width="5.3" height="2.1"/>
+	</g>
+</g>
+</svg>

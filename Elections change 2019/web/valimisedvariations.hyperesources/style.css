@@ -1,0 +1,31 @@
+.maakond{
+	fill:rgba(207, 200, 197, 0.1);
+	stroke:#6E6E6E;
+	stroke-width:0.5;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+.vald{
+	fill:rgba(207, 200, 197, 0);
+	stroke:#4B745F;
+	stroke-width:0.1;
+	stroke-miterlimit:2.6;
+}
+.vald:hover{
+	fill:rgba(207, 200, 197, 0.3);
+}
+
+.button{
+	opacity: 0.5;
+}
+
+#containerButtons:{
+	visibility: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+
