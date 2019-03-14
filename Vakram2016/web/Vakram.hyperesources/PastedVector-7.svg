@@ -1,0 +1,28 @@
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="258px" height="258px" viewBox="0 0 258 258" style="enable-background:new 0 0 258 258;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;}
+	.st1{fill:#C4862B;}
+	.st2{fill:#D3B92A;}
+	.st3{fill:none;}
+	.st4{font-family:'Roboto-Black';}
+	.st5{font-size:184px;}
+</style>
+<defs>
+</defs>
+<g class="st0">
+	<circle class="st1" cx="129" cy="129" r="129"/>
+	<circle class="st2" cx="129" cy="129" r="112.6"/>
+	<rect x="67.7" y="62.2" class="st3" width="152.4" height="166.6"/>
+	<text transform="matrix(1 0 0 1 67.6716 200.1782)" class="st1 st4 st5">€</text>
+</g>
+<g>
+	<path class="st1" d="M135.6,0.1v145.4H3c-0.7-5.4-1-10.9-1-16.5C2,57.8,59.7,0,131,0C132.5,0,134.1,0,135.6,0.1z"/>
+	<path class="st2" d="M135.6,16.5v129h-116c-0.8-5.4-1.2-10.9-1.2-16.5C18.4,66.8,68.8,16.4,131,16.4
+		C132.5,16.4,134.1,16.4,135.6,16.5z"/>
+</g>
+<text transform="matrix(1 0 0 1 67.9128 200.1742)" class="st1 st4 st5">€</text>
+</svg>

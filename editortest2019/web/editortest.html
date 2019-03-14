@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>editortest</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#FFF6F3;
+			margin:0;
+			height:100%;
+		}
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=720" />
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif&subset=latin' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif:700&subset=latin' rel='stylesheet' type='text/css'>
+	
+<style>
+	.word:hover{
+		color:#9f9a95; 
+	}
+	
+	#result{
+		visibility:hidden;
+	}
+</style>
+<script>
+	var correctedList = ['','marsruudil ','kabinet ','komplekssuse ','mandariin ','fokuseeris ','Tallinna-Tartu ','diiselmootoriga ','üleeuroopalisele ','brošüüri ','turukonjunktuuri ']; 
+	var tries = 0;
+	var number;
+	var kusimusNumber;
+	var rightAnswers=0;
+	function showNumber(a){
+		kusimusNumber=a.id;
+		number = kusimusNumber.replace('kusimus','');
+	};
+	function clean(){
+		var answerBox = 'answer' + number;
+		var box = document.getElementById(answerBox);
+		if(box.innerHTML=='SEE ON ÕIGESTI KIRJUTATUD!'){
+			box.innerHTML="";
+		}
+	}
+	function wrong(){
+		var answerBox = 'answer' + number;
+		var box = document.getElementById(answerBox);
+		box.innerHTML="SEE ON ÕIGESTI KIRJUTATUD!";
+		box.style.color="#ac001e";
+		
+		tries +=1;
+		document.getElementById('vigad').innerHTML = tries;
+	}
+	function right(){
+		var answerBox = 'answer' + number;
+		var box = document.getElementById(answerBox);
+		box.innerHTML="";
+		box.innerHTML="LEIDSID VIGASE SÕNA!";
+		box.style.color="#57897C";
+		box.style.backgroundColor='rgba(181, 202, 194,0.3)';
+		
+		var correctedBox = 'corrected' + number;
+		var corrected = document.getElementById(correctedBox);
+		corrected.innerHTML=correctedList[number];
+		corrected.style.fontWeight='700';
+		corrected.style.color='#57897C';
+		rightAnswers++;
+		document.getElementById(answerBox).id=answerBox +'closed';
+		if(rightAnswers==10){
+			document.getElementById('result').style.visibility='visible';
+			document.getElementById('result').focus();
+		}
+	}
+
+</script>	
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+	<div id="editortest_hype_container" style="margin:auto;position:relative;width:100%;height:2400px;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="editortest.hyperesources/editortest_hype_generated_script.js?1760"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	<!-- text content for search engines: -->
+
+	<div style="display:none" aria-hidden=true>
+
+		<div>4. Milline eksootiline produkt on sinu favoriit, kas banaan, apelsin, mandarin, pomel, papaia, hurmaa, granadill, greip, avokaado, kiivi, mango, granaatõun või sidrun?
+
+
+</div>
+		<div>Allikas: Äripäev  / Graafik: Miguel Álvarez /</div>
+		<div>9. Polikliinikus ootav vanataat sirvis brožüüri, milles professionaalid selgitasid pika elu alustalasid.
+
+
+</div>
+		<div>5. Turist fokusseeris tähelepanu lillepeenarde vahele - kaks skorpioni pidasid halastamatut võitlust.
+
+
+</div>
+		<div>6. Filmikooli õpilased tegid Tallinn-Tartu maantee kõrval videoid, kuidas kaskadöörid valmistavad ette ohtlikke trikke.
+
+
+</div>
+		<div>1. Pärast seda, kui Pärnu-Lelle-Rapla marsuudil hakkas kolm korda päevas kurseerima dirižaabel, ei pidanud magistrandid enam džotile viskuma ega tervele mõistusele apelleerima.
+
+
+</div>
+		<div>10. Vastne tippjuht afišeeris uut turukonjuktuuri, et tõestada kümmekond aastat kestnud stagnatsiooni lõppu.
+
+
+</div>
+		<div>7. Pikast päevast väsinud arhitekt tankis diislimootoriga kabrioleti kütusepaaki bensiini.
+
+
+</div>
+		<div>Sul oli 0 viga.</div>
+		<div>2. Uus kabinett peab mõistma, et Eesti ees seisavad keskpikas perspektiivis väga tõsised probleemid, kuid tekib küsimus, kas kompetents selleks ikka eksisteerib või tuleb keegi juurde angažeerida.
+
+
+</div>
+		<div>8. Tartu suurim hotell võõrustas üle-Euroopalisele assambleele kogunenud saadikuid, pakkudes igaühele kingituseks puuviljavaagna.
+
+
+</div>
+		<div>3. Produtsendid ütlesid ühiskommünikees, et nüüd tehakse aliansse, et pakkuda teenust kogu Euroopa Liidus, kuid kompleksuse küsimuse peab lahendama konsultant.
+
+
+</div>
+
+	</div>
+
+	<!-- end text content: -->
+
+  </body>
+</html>
