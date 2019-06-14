@@ -1,0 +1,271 @@
+.face {
+	border-radius: 50%; 
+}
+
+
+.pair:hover{
+	opacity: .5;
+}
+
+#answer_box{
+	visibility: hidden;
+}
+
+#answer_box #question{
+	 display:inline-block;
+}
+
+#answer_box #question p{
+	display: block;
+	position: relative;
+	clear:both;
+	border-radius: 10px;
+    padding: 10px;
+	opacity: 0.8;
+}
+
+#answer_box #question p.madison:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid white;
+    left:-18px;
+    top:5px;
+}
+
+#answer_box #question p.toom:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #007B5E;
+    right:-18px;
+    top:5px;
+    float:right;
+}
+
+#answer_box #question p.poolamets:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid white;
+    left:-18px;
+    top:5px;
+}
+
+#answer_box #question p.roivas:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #F9DC2F;
+    right:-18px;
+    top:5px;
+    float:right;
+}
+
+#answer_box #question p.kaljurand:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid #FF0000;
+    left:-18px;
+    top:5px;
+}
+
+#answer_box #question p.terras:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #04A1E5;
+    right:-18px;
+    top:5px;
+    float:right;
+}
+
+#answer_box #question p.kuldmaa:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid #04A1E5;
+    left:-18px;
+    top:5px;
+}
+
+#answer_box #question p.hussar:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #0F768C;
+    right:-18px;
+    top:5px;
+    float:right;
+}
+
+#answer_box #question p.korobeinik:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid #007B5E;
+    left:-18px;
+    top:5px;
+}
+
+#answer_box #question p.tsahkna:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #0F768C;
+    right:-18px;
+    top:5px;
+    float:right;
+}
+
+#answer_box #question p.mikser:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid #FF0000;
+    left:-18px;
+    top:5px;
+}
+
+#answer_box #question p.paet:before{
+	content:'';
+    display:inline-block;
+    width:0;
+    height:0;
+    position:relative;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #F9DC2F;
+    right:-18px;
+    top:5px;
+    float:right;
+}
+
+#answer_box #question p.poolamets{
+	text-align: left;
+	float:left;
+	background-color: white;
+	color: black;	
+}
+
+#answer_box #question p.roivas{
+	text-align: right;
+	float:right;
+	background-color: #F9DC2F;
+	color: black;
+}
+
+#answer_box #question p.korobeinik{
+	text-align: left;
+	float:left;
+	background-color: #007B5E;
+	color: white;
+}
+
+#answer_box #question p.tsahkna{
+	text-align: right;
+	float:right;
+	background-color: #0F768C;
+	color: white;
+}
+
+#answer_box #question p.kaljurand{
+	text-align: left;
+	float:left;
+	background-color: #FF0000;
+	color: white;
+}
+
+#answer_box #question p.terras{
+	text-align: right;
+	float:right;
+	background-color: #04A1E5;
+	color: black;
+}
+
+#answer_box #question p.kuldmaa{
+	text-align: left;
+	float:left;
+	background-color: #04A1E5;
+	color: black;
+}
+
+#answer_box #question p.hussar{
+	text-align: right;
+	float:right;
+	background-color: #0F768C;
+	color: white;
+}
+
+#answer_box #question p.madison{
+	text-align: left;
+	float:left;
+	background-color: white;
+	color: black;
+}
+
+#answer_box #question p.toom{
+	text-align: right;
+	float:right;
+	background-color: #007B5E;
+	color: white;
+}
+
+#answer_box #question p.mikser{
+	text-align: left;
+	float:left;
+	background-color: #FF0000;
+	color: white;
+}
+
+#answer_box #question p.paet{
+	text-align: right;
+	float:right;
+	background-color: #F9DC2F;
+	color: black;
+}
